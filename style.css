@@ -1,0 +1,486 @@
+
+.container{
+
+    background:linear-gradient(rgba(6, 5, 5, 0.5), rgba(11, 11, 11, 0.5)),url(https://assets.nflxext.com/ffe/siteui/vlv3/a56dc29b-a0ec-4f6f-85fb-50df0680f80f/2f8ae902-8efe-49bb-9a91-51b6fcc8bf46/IN-en-20240617-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding: 10px 8px;
+  width: 100%;
+  height: 100vh;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    position: fixed
+    
+    
+}
+
+.main-body{
+    width: 100%;
+    height: 400px;
+    position: absolute;
+
+    
+}
+
+body{
+    margin: 0;
+  background-color: black;
+  color: #fff;
+  
+
+}
+
+.left-head{
+    width: 40%;
+    float: left;
+
+    
+}
+.right-head{
+    width: 60%;
+    float: left; 
+     
+}
+
+.drop{
+    margin-top: 30px;
+    margin-left: 600px;
+    padding-left: 30px;
+    height: 35px;
+    width: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: black;
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    
+}
+
+.sign{
+    height:30px ;
+    width: 70px;
+    margin-left:670 ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: red;
+    color: #fff;
+    padding-left: 10px;
+    
+
+
+}
+
+
+.image{
+    width: 150px;
+    height: 100px;
+    padding-left: 200px;
+    padding-bottom: 400px;
+    
+}
+
+.parag h1
+{
+    padding-top: 200px;
+    color: #fff;
+    font-size: 3em;
+    padding-bottom: 200px;
+    font-weight: 900;
+    left: 300px;
+    top: 50px;
+    position:absolute;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    
+
+}
+
+.parag{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+    position: absolute;
+    text-align: center;
+
+
+
+
+    
+}
+
+.parag h3{
+    padding-top: 300px;
+    color: #fff;
+    font-size: 1.5em;
+    padding-bottom: 200px;
+    font-weight: 400;
+    left: 550px;
+    top: 35px;
+    position:absolute;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+}
+.parag p{
+    padding-top: 350px;
+    color: #fff;
+    font-size: 1.5em;
+    padding-bottom: 200px;
+    font-weight: 400;
+    left: 350px;
+    top: 45px;
+    position:absolute;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+}
+.parag input{
+    margin-top: 415px;
+    left: 380px;
+    top: 45px;
+    position:absolute;
+    width: 400px;
+    height: 55px;
+    border-radius: 6px;
+    background: transparent;
+    
+}
+.parag ::placeholder{
+    color: #fff;
+    padding-left: 20px;
+}
+
+
+
+
+.parag button{
+    margin-top: 415px;
+    left: 800px;
+    top: 45px;
+    align-items: center;
+    margin-left: 15px;
+    width: 200px;
+    height: 62px;
+    border-radius: 6px;
+    color: #fff;
+    position: absolute;
+    background-color: red;
+    font-size: 1.5em;
+    padding:10px 20px;
+    cursor: pointer;
+}
+
+
+.parag svg{
+    margin-top: 10px;
+}
+
+.features{
+    padding: 50px 12%;
+    font-size: 22px;
+    border-top: 6px solid #444;
+
+}
+
+.row{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    
+
+}
+
+.logo{
+    width: 150px;
+    margin-left: 150px;
+}
+
+nav button{
+    border: 0;
+    outline: 0;
+    background: #db0001;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+    padding: 7px 20px;
+    margin-left: 150px 100px;
+    padding-left: 20px;
+    width: -30px;
+    
+
+}
+
+
+
+.english{
+    
+    margin-left: 100px;
+    width: 120px;
+    height: 35px;
+    background: transparent;
+    border: 1px solid #fff;
+    
+    
+    
+
+}
+
+.in{
+    margin-right: 200px;
+    height: 35px;
+    width: 100px;
+}
+
+
+
+.one{
+
+    margin-bottom: 20px;
+    flex-basis: 50%;
+    
+
+
+}
+
+
+.two{
+    flex-basis: 50%;
+   margin-bottom: 20px;
+}
+
+.two img{
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+
+.faq h1{
+    
+    font-size: 3rem;
+}
+
+
+
+.faq{
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.accordion {
+    background-color: #444;
+    color:#eee;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin-bottom: 10px;
+    display: block;
+    font-size: 25px;
+    height: 80px;
+    
+    
+    
+    
+    
+  }
+
+  .active, .accordion:hover {
+    background-color: #706c6c;
+  }
+
+
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }
+
+
+  .accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 18px;
+    color: #fff;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+  }
+
+
+  .form2{
+
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+
+  }
+
+  .form2 h2{
+    font-size: 20px;
+    margin-top: 50px;
+    line-height: 1.5px;
+    font-weight: 400px;
+  }
+
+  .form2 input{
+    width: 350px;
+    height: 60px;
+    border-radius: 5px;
+    background: transparent;
+    padding-left: 20px;
+    margin-top: 15px;
+  }
+
+  .form2 ::placeholder, textarea ::placeholder{
+    color: #fff;
+    font-size: 14px;
+  }
+
+  .form2 button{
+    width: 150;
+    height: 66px;
+    border-radius: 5px;
+    background: #db0001;
+    padding-left: 20px;
+    font-size: 1.5rem;
+    color: #fff;
+    margin-top: 15px;
+    margin-left: 8px;
+
+    
+  }
+
+  .form2 form{
+    display: flex;
+    align-items: center;
+    margin-left: 220px;
+  }
+
+  .footer{
+    padding: 50px 200px 10px;
+    border-top: 6px solid #333;
+    color: #777;
+    margin-top: 50px;
+  }
+
+  .footer h2{
+    font-size: 18px;
+    font-weight: 400px;
+    margin-bottom: 10px;
+    padding-left: 94px;
+
+  }
+  .footer .col{
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+  }
+
+
+  .footer .col a{
+    display: block;
+    text-decoration: none;
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+
+  }
+
+  
+
+  .footer .row{
+    align-items: flex-start;
+    padding: 10px 0;
+    padding-left: 98px;
+  }
+
+  .footer .english{
+    color: #eee;
+    border-radius: 2px;
+
+  }
+
+  #language{
+    color: #eee;
+    border-radius: 4px;
+    padding-left: 20px;
+    margin-right: 20px;
+  }
+
+  .footer p{
+    padding-left: 100px;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+  }
+
+  
+  
+
+
+
+  
+    
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
